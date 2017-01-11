@@ -353,8 +353,7 @@ static noinline void corrupt_stack(void)
 	/* Use default char array length that triggers stack protection. */
 	char data[8];
 	__lkdtm_CORRUPT_STACK(&data);
-	
-	memset((void *)data, 'a', 64);
+
 	pr_info("Corrupted stack with '%16s'...\n", data);
 }
 
