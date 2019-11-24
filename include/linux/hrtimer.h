@@ -77,6 +77,7 @@ enum hrtimer_restart {
 #define HRTIMER_STATE_ENQUEUED	0x01
 #define HRTIMER_PINNED_SHIFT	1
 #define HRTIMER_STATE_PINNED	(1 << HRTIMER_PINNED_SHIFT)
+#define HRTIMER_STATE_CALLBACK 0x02
 
 /**
  * struct hrtimer - the basic hrtimer structure
