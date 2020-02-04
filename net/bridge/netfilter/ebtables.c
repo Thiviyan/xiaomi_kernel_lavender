@@ -2174,9 +2174,7 @@ static int compat_copy_entries(unsigned char *data, unsigned int size_user,
 	if (ret < 0)
 		return ret;
 
-	if (size_remaining)
-		return -EINVAL;
-
+	WARN_ON(size_remaining);
 	return state->buf_kern_offset;
 }
 

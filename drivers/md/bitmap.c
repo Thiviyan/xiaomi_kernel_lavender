@@ -1671,7 +1671,7 @@ void bitmap_flush(struct mddev *mddev)
 /*
  * free memory that was allocated
  */
-static void md_bitmap_free(struct bitmap *bitmap)
+static void bitmap_free(struct bitmap *bitmap)
 {
 	unsigned long k, pages;
 	struct bitmap_page *bp;
@@ -1721,7 +1721,7 @@ void bitmap_destroy(struct mddev *mddev)
 	if (bitmap->sysfs_can_clear)
 		sysfs_put(bitmap->sysfs_can_clear);
 
-	md_bitmap_free(bitmap);
+	bitmap_free(bitmap);
 }
 
 /*
@@ -1805,7 +1805,7 @@ struct bitmap *bitmap_create(struct mddev *mddev, int slot)
 
 	return bitmap;
  error:
-	md_bitmap_free(bitmap);
+	bitmap_free(bitmap);
 	return ERR_PTR(err);
 }
 
@@ -1904,7 +1904,7 @@ int bitmap_copy_from_slot(struct mddev *mddev, int slot,
 	*low = lo;
 	*high = hi;
 err:
-	md_bitmap_free(bitmap);
+	bitmap_free(bitmap);
 	return rv;
 }
 EXPORT_SYMBOL_GPL(bitmap_copy_from_slot);
