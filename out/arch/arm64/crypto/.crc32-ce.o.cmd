@@ -1,1 +1,0 @@
-cmd_arch/arm64/crypto/crc32-ce.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o arch/arm64/crypto/crc32-ce.o arch/arm64/crypto/crc32-ce-core.o arch/arm64/crypto/crc32-ce-glue.o 

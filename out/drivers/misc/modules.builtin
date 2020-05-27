@@ -1,5 +1,0 @@
-kernel/drivers/misc/qseecom.ko
-kernel/drivers/misc/hdcp.ko
-kernel/drivers/misc/compat_qseecom.ko
-kernel/drivers/misc/qpnp-misc.ko
-kernel/drivers/misc/ant_check.ko

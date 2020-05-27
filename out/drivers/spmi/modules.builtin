@@ -1,3 +1,0 @@
-kernel/drivers/spmi/spmi.ko
-kernel/drivers/spmi/spmi-pmic-arb.ko
-kernel/drivers/spmi/virtspmi-pmic-arb.ko

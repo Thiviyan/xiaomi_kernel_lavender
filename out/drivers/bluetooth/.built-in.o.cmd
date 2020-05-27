@@ -1,1 +1,0 @@
-cmd_drivers/bluetooth/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/bluetooth/built-in.o drivers/bluetooth/bluetooth-power.o drivers/bluetooth/btfm_slim.o drivers/bluetooth/btfm_slim_codec.o drivers/bluetooth/btfm_slim_wcn3990.o 

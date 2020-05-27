@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/msm/vidc/governors/msm-vidc-table-gov.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/media/platform/msm/vidc/governors/msm-vidc-table-gov.o drivers/media/platform/msm/vidc/governors/msm_vidc_table_gov.o 

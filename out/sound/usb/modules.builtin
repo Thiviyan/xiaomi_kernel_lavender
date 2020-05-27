@@ -1,4 +1,0 @@
-kernel/sound/usb/snd-usb-audio.ko
-kernel/sound/usb/snd-usbmidi-lib.ko
-kernel/sound/usb/usb_audio_qmi_v01.ko
-kernel/sound/usb/usb_audio_qmi_svc.ko

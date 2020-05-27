@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/cnss_genl/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/net/wireless/cnss_genl/built-in.o drivers/net/wireless/cnss_genl/cnss_nl.o 

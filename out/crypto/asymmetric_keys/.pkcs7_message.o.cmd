@@ -1,1 +1,0 @@
-cmd_crypto/asymmetric_keys/pkcs7_message.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o crypto/asymmetric_keys/pkcs7_message.o crypto/asymmetric_keys/pkcs7-asn1.o crypto/asymmetric_keys/pkcs7_parser.o crypto/asymmetric_keys/pkcs7_trust.o crypto/asymmetric_keys/pkcs7_verify.o 

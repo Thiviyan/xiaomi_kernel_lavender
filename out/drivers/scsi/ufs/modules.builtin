@@ -1,4 +1,0 @@
-kernel/drivers/scsi/ufs/ufs-qcom.ko
-kernel/drivers/scsi/ufs/ufshcd.ko
-kernel/drivers/scsi/ufs/ufs_quirks.ko
-kernel/drivers/scsi/ufs/ufshcd-pltfrm.ko

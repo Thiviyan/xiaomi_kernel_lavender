@@ -1,1 +1,0 @@
-cmd_security/smack/smack.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o security/smack/smack.o security/smack/smack_lsm.o security/smack/smack_access.o security/smack/smackfs.o 

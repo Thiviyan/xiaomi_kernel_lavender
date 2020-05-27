@@ -1,3 +1,0 @@
-kernel/mm/zpool.ko
-kernel/mm/zbud.ko
-kernel/mm/zsmalloc.ko

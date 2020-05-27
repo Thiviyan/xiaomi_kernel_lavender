@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/msm/camera_v2/sensor/csid/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/media/platform/msm/camera_v2/sensor/csid/built-in.o drivers/media/platform/msm/camera_v2/sensor/csid/msm_csid.o 

@@ -1,1 +1,0 @@
-cmd_drivers/platform/msm/ipa/ipa_v3/ipahal/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/platform/msm/ipa/ipa_v3/ipahal/built-in.o drivers/platform/msm/ipa/ipa_v3/ipahal/ipa_hal.o 

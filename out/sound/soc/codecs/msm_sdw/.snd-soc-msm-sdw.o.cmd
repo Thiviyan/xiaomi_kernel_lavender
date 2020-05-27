@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/msm_sdw/snd-soc-msm-sdw.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o sound/soc/codecs/msm_sdw/snd-soc-msm-sdw.o sound/soc/codecs/msm_sdw/msm_sdw_cdc.o sound/soc/codecs/msm_sdw/msm_sdw_regmap.o sound/soc/codecs/msm_sdw/msm-sdw-tables.o sound/soc/codecs/msm_sdw/msm_sdw_cdc_utils.o 

@@ -1,1 +1,0 @@
-cmd_drivers/input/fingerprint/gf3208/gf3208.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/input/fingerprint/gf3208/gf3208.o drivers/input/fingerprint/gf3208/gf_spi.o drivers/input/fingerprint/gf3208/platform.o drivers/input/fingerprint/gf3208/netlink.o 

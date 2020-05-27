@@ -1,1 +1,0 @@
-cmd_drivers/misc/qcom/qdsp6v2/ultrasound/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/misc/qcom/qdsp6v2/ultrasound/built-in.o drivers/misc/qcom/qdsp6v2/ultrasound/usf.o drivers/misc/qcom/qdsp6v2/ultrasound/usfcdev.o drivers/misc/qcom/qdsp6v2/ultrasound/q6usm.o 

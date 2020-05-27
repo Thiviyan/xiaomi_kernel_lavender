@@ -1,1 +1,0 @@
-cmd_firmware/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o firmware/built-in.o firmware/novatek/tianma_nt36672a_miui_f7a.bin.gen.o firmware/novatek/shenchao_nt36672a_miui_f7a.bin.gen.o firmware/synaptics/boe_td4320_i2c_F7A.img.gen.o 

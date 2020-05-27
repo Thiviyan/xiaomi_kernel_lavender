@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/msm/camera_v2/msm_buf_mgr/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/media/platform/msm/camera_v2/msm_buf_mgr/built-in.o drivers/media/platform/msm/camera_v2/msm_buf_mgr/msm_generic_buf_mgr.o 

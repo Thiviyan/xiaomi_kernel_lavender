@@ -1,3 +1,0 @@
-kernel/drivers/media/platform/msm/dvb/adapter/mpq-adapter.ko
-kernel/drivers/media/platform/msm/dvb/demux/mpq-dmx-hw-plugin.ko
-kernel/drivers/media/usb/gspca/gspca_main.ko

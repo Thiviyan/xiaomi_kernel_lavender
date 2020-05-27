@@ -1,1 +1,0 @@
-cmd_drivers/iio/industrialio.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/iio/industrialio.o drivers/iio/industrialio-core.o drivers/iio/industrialio-event.o drivers/iio/inkern.o 

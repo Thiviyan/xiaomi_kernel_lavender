@@ -1,1 +1,0 @@
-cmd_drivers/platform/msm/seemp_core/seemp_core.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/platform/msm/seemp_core/seemp_core.o drivers/platform/msm/seemp_core/seemp_logk.o drivers/platform/msm/seemp_core/seemp_ringbuf.o drivers/platform/msm/seemp_core/seemp_event_encoder.o 

@@ -1,1 +1,0 @@
-cmd_sound/soc/msm/snd-soc-ext-codec.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o sound/soc/msm/snd-soc-ext-codec.o sound/soc/msm/sdm660-external.o sound/soc/msm/sdm660-ext-dai-links.o 

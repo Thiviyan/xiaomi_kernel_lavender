@@ -1,1 +1,0 @@
-cmd_drivers/power/qcom/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/power/qcom/built-in.o drivers/power/qcom/lpm-stats.o drivers/power/qcom/msm-core.o drivers/power/qcom/debug_core.o drivers/power/qcom/apm.o 

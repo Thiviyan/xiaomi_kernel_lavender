@@ -1,1 +1,0 @@
-cmd_arch/arm64/crypto/aes-neon-blk.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o arch/arm64/crypto/aes-neon-blk.o arch/arm64/crypto/aes-glue-neon.o arch/arm64/crypto/aes-neon.o 

@@ -1,8 +1,0 @@
-sdm660-mtp-overlay.o: ../arch/arm64/boot/dts/qcom/sdm660-mtp-overlay.dts \
- ../arch/arm64/boot/dts/include/dt-bindings/clock/qcom,cpu-osm.h \
- ../arch/arm64/boot/dts/include/dt-bindings/clock/qcom,rpmcc.h \
- ../arch/arm64/boot/dts/include/dt-bindings/clock/qcom,mmcc-sdm660.h \
- ../arch/arm64/boot/dts/include/dt-bindings/regulator/qcom,rpm-smd-regulator.h \
- ../arch/arm64/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h \
- ../arch/arm64/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
- ../arch/arm64/boot/dts/qcom/sdm660-vts.dtsi
