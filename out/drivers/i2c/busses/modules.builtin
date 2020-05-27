@@ -1,0 +1,2 @@
+kernel/drivers/i2c/busses/i2c-msm-v2.ko
+kernel/drivers/i2c/busses/i2c-brcmstb.ko

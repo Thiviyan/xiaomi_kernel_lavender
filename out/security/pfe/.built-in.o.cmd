@@ -1,0 +1,1 @@
+cmd_security/pfe/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o security/pfe/built-in.o security/pfe/pfk.o security/pfe/pfk_kc.o security/pfe/pfk_ice.o security/pfe/pfk_ext4.o security/pfe/pfk_ecryptfs.o 

@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/chacha20-neon.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o arch/arm64/crypto/chacha20-neon.o arch/arm64/crypto/chacha20-neon-core.o arch/arm64/crypto/chacha20-neon-glue.o 

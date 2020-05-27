@@ -1,0 +1,1 @@
+cmd_drivers/acpi/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/acpi/built-in.o drivers/acpi/tables.o drivers/acpi/acpi.o drivers/acpi/acpica/built-in.o drivers/acpi/button.o drivers/acpi/fan.o drivers/acpi/processor.o drivers/acpi/container.o drivers/acpi/thermal.o drivers/acpi/acpi_memhotplug.o 

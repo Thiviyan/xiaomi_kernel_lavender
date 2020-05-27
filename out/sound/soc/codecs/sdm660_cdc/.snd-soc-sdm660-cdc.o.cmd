@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/sdm660_cdc/snd-soc-sdm660-cdc.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o sound/soc/codecs/sdm660_cdc/snd-soc-sdm660-cdc.o sound/soc/codecs/sdm660_cdc/msm-analog-cdc.o sound/soc/codecs/sdm660_cdc/msm-digital-cdc.o sound/soc/codecs/sdm660_cdc/sdm660-regmap.o 

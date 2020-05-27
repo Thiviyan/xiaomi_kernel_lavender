@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-wsa881x.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o sound/soc/codecs/snd-soc-wsa881x.o sound/soc/codecs/wsa881x.o sound/soc/codecs/wsa881x-tables.o sound/soc/codecs/wsa881x-regmap.o sound/soc/codecs/wsa881x-temp-sensor.o 

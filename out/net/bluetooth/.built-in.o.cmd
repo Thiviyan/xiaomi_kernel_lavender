@@ -1,0 +1,1 @@
+cmd_net/bluetooth/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o net/bluetooth/built-in.o net/bluetooth/bluetooth.o 

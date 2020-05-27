@@ -1,0 +1,8 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/msm_gfx_ldo.ko
+kernel/drivers/regulator/mem-acc-regulator.ko
+kernel/drivers/regulator/qpnp-regulator.ko
+kernel/drivers/regulator/qpnp-labibb-regulator.ko
+kernel/drivers/regulator/qpnp-lcdb-regulator.ko
+kernel/drivers/regulator/qpnp-oledb-regulator.ko
+kernel/drivers/regulator/stub-regulator.ko

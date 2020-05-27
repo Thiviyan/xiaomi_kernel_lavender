@@ -1,0 +1,1 @@
+cmd_drivers/pnp/pnp.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/pnp/pnp.o drivers/pnp/core.o drivers/pnp/card.o drivers/pnp/driver.o drivers/pnp/resource.o drivers/pnp/manager.o drivers/pnp/support.o drivers/pnp/interface.o drivers/pnp/quirks.o drivers/pnp/system.o 

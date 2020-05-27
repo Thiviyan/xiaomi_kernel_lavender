@@ -1,0 +1,16 @@
+kernel/drivers/mfd/mfd-core.ko
+kernel/drivers/mfd/qcom-spmi-pmic.ko
+kernel/drivers/mfd/qcom-i2c-pmic.ko
+kernel/drivers/mfd/msm-cdc-pinctrl.ko
+kernel/drivers/mfd/msm-cdc-supply.ko
+kernel/drivers/mfd/wcd9xxx-utils.ko
+kernel/drivers/mfd/wcd9xxx-core.ko
+kernel/drivers/mfd/wcd9xxx-irq.ko
+kernel/drivers/mfd/wcd9xxx-slimslave.ko
+kernel/drivers/mfd/wcd9335-regmap.ko
+kernel/drivers/mfd/wcd9335-tables.ko
+kernel/drivers/mfd/wcd9xxx-core.ko
+kernel/drivers/mfd/wcd9xxx-irq.ko
+kernel/drivers/mfd/wcd9xxx-slimslave.ko
+kernel/drivers/mfd/wcd934x-regmap.ko
+kernel/drivers/mfd/wcd934x-tables.ko

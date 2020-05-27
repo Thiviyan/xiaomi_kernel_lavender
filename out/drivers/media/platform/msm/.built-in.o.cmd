@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/media/platform/msm/built-in.o drivers/media/platform/msm/camera_v2/built-in.o drivers/media/platform/msm/vidc/built-in.o drivers/media/platform/msm/sde/built-in.o drivers/media/platform/msm/broadcast/built-in.o 

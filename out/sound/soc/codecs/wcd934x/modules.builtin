@@ -1,0 +1,3 @@
+kernel/sound/soc/codecs/wcd934x/snd-soc-wcd934x.ko
+kernel/sound/soc/codecs/wcd934x/snd-soc-wcd934x-mbhc.ko
+kernel/sound/soc/codecs/wcd934x/snd-soc-wcd934x-dsd.ko

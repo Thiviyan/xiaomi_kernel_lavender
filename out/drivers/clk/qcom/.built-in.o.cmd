@@ -1,0 +1,1 @@
+cmd_drivers/clk/qcom/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/clk/qcom/built-in.o drivers/clk/qcom/clk-qcom.o drivers/clk/qcom/gcc-sdm660.o drivers/clk/qcom/gpucc-sdm660.o drivers/clk/qcom/mmcc-sdm660.o drivers/clk/qcom/clk-smd-rpm.o drivers/clk/qcom/clk-cpu-osm.o drivers/clk/qcom/mdss/built-in.o 

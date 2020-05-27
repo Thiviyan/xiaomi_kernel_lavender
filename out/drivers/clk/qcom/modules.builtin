@@ -1,0 +1,6 @@
+kernel/drivers/clk/qcom/clk-qcom.ko
+kernel/drivers/clk/qcom/gcc-sdm660.ko
+kernel/drivers/clk/qcom/gpucc-sdm660.ko
+kernel/drivers/clk/qcom/mmcc-sdm660.ko
+kernel/drivers/clk/qcom/clk-smd-rpm.ko
+kernel/drivers/clk/qcom/clk-cpu-osm.ko

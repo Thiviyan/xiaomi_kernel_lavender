@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/sdm660_cdc/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o sound/soc/codecs/sdm660_cdc/built-in.o sound/soc/codecs/sdm660_cdc/snd-soc-sdm660-cdc.o sound/soc/codecs/sdm660_cdc/sdm660-cdc-irq.o 

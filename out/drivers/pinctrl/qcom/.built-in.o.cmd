@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/qcom/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/pinctrl/qcom/built-in.o drivers/pinctrl/qcom/pinctrl-msm.o drivers/pinctrl/qcom/pinctrl-msm8998.o drivers/pinctrl/qcom/pinctrl-sdm660.o drivers/pinctrl/qcom/pinctrl-wcd.o drivers/pinctrl/qcom/pinctrl-lpi.o 

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-wcd-dsp-utils.o := /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o sound/soc/codecs/snd-soc-wcd-dsp-utils.o sound/soc/codecs/wcd-dsp-utils.o 

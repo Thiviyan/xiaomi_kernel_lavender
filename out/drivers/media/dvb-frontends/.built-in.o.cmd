@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/built-in.o :=  rm -f drivers/media/dvb-frontends/built-in.o; /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcsD drivers/media/dvb-frontends/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/power/reset/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/power/reset/built-in.o drivers/power/reset/msm-poweroff.o drivers/power/reset/xgene-reboot.o drivers/power/reset/syscon-reboot.o 

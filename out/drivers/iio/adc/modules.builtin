@@ -1,0 +1,2 @@
+kernel/drivers/iio/adc/qcom-rradc.ko
+kernel/drivers/iio/adc/qcom-tadc.ko

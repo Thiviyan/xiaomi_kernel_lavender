@@ -1,0 +1,4 @@
+kernel/drivers/acpi/button.ko
+kernel/drivers/acpi/fan.ko
+kernel/drivers/acpi/processor.ko
+kernel/drivers/acpi/thermal.ko

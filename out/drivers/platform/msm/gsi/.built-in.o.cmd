@@ -1,0 +1,1 @@
+cmd_drivers/platform/msm/gsi/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/platform/msm/gsi/built-in.o drivers/platform/msm/gsi/gsi.o drivers/platform/msm/gsi/gsi_dbg.o 

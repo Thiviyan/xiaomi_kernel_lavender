@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cavium/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/net/ethernet/cavium/built-in.o drivers/net/ethernet/cavium/thunder/built-in.o drivers/net/ethernet/cavium/liquidio/built-in.o 

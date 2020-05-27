@@ -1,0 +1,3 @@
+kernel/drivers/hwmon/hwmon.ko
+kernel/drivers/hwmon/qpnp-adc-voltage.ko
+kernel/drivers/hwmon/qpnp-adc-common.ko

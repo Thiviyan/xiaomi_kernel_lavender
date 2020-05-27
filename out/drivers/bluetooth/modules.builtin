@@ -1,0 +1,4 @@
+kernel/drivers/bluetooth/bluetooth-power.ko
+kernel/drivers/bluetooth/btfm_slim.ko
+kernel/drivers/bluetooth/btfm_slim_codec.ko
+kernel/drivers/bluetooth/btfm_slim_wcn3990.ko

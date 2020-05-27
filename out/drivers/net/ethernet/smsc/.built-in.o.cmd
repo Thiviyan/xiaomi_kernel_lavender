@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/smsc/built-in.o :=  /home/sleepy/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL    -r -o drivers/net/ethernet/smsc/built-in.o drivers/net/ethernet/smsc/smsc911x.o 

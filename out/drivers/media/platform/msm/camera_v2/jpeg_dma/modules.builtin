@@ -1,0 +1,2 @@
+kernel/drivers/media/platform/msm/camera_v2/jpeg_dma/msm_jpeg_dma_dev.ko
+kernel/drivers/media/platform/msm/camera_v2/jpeg_dma/msm_jpeg_dma_hw.ko
