@@ -1,0 +1,3 @@
+[submodule "kali-nethunter-kernel"]
+	path = kali-nethunter-kernel
+	url = git@gitlab.com:kalilinux/nethunter/build-scripts/kali-nethunter-kernel.git
