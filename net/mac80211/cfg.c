@@ -71,8 +71,29 @@ static int ieee80211_change_iface(struct wiphy *wiphy,
 		 params && params->use_4addr >= 0)
 		sdata->u.mgd.use_4addr = params->use_4addr;
 
-	if (sdata->vif.type == NL80211_IFTYPE_MONITOR && flags) {
+	if (sdata->vif.type == NL80211_IFTYPE_MONITOR) {
 		struct ieee80211_local *local = sdata->local;
+		struct ieee80211_sub_if_data *monitor_sdata;
+		u32 mu_mntr_cap_flag = NL80211_EXT_FEATURE_MU_MIMO_AIR_SNIFFER;
+
+		monitor_sdata = rtnl_dereference(local->monitor_sdata);
+		if (monitor_sdata &&
+		    wiphy_ext_feature_isset(wiphy, mu_mntr_cap_flag)) {
+			memcpy(monitor_sdata->vif.bss_conf.mu_group.membership,
+			       params->vht_mumimo_groups, WLAN_MEMBERSHIP_LEN);
+			memcpy(monitor_sdata->vif.bss_conf.mu_group.position,
+			       params->vht_mumimo_groups + WLAN_MEMBERSHIP_LEN,
+			       WLAN_USER_POSITION_LEN);
+			monitor_sdata->vif.mu_mimo_owner = true;
+			ieee80211_bss_info_change_notify(monitor_sdata,
+							 BSS_CHANGED_MU_GROUPS);
+
+			ether_addr_copy(monitor_sdata->u.mntr.mu_follow_addr,
+					params->macaddr);
+		}
+
+		if (!flags)
+			return 0;
 
 		if (ieee80211_sdata_running(sdata)) {
 			u32 mask = MONITOR_FLAG_COOK_FRAMES |
@@ -540,7 +561,8 @@ static int ieee80211_set_monitor_channel(struct wiphy *wiphy,
 			ret = ieee80211_vif_use_channel(sdata, chandef,
 					IEEE80211_CHANCTX_EXCLUSIVE);
 		}
-	} else if (local->open_count == local->monitors) {
+       // Patch: Always allow channel change, even if a normal virtual interface is present
+       } else /*if (local->open_count == local->monitors)*/ {
 		local->_oper_chandef = *chandef;
 		ieee80211_hw_config(local, 0);
 	}
